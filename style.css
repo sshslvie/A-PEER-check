@@ -18,10 +18,19 @@ a{
     text-decoration: none;
 }
 
-h1{
-    font-size:16px;
-    font-weight: bolder;
-}
+h1 {
+        font-family: "School";
+        color: palegreen;
+        font-size: max(1.5vw, 1em);
+        line-height: 1em;
+        }
+
+h2 {
+        font-family: "Regular";
+        color: whitesmoke;
+        font-size: max(2vw, 1em);
+        line-height: 0.6em;
+        }
 
 
 /* ########################################### */
@@ -185,8 +194,19 @@ header{
     src:url(aquire.otf);
 }
 
+@font-face {
+        font-family:"School";
+        src: url("./fonts/FT88-School.woff2") format("woff2");
+        }   
+
+@font-face {
+        font-family:"Regular";
+        src: url("./fonts/FT88-Regular.woff2") format("woff2");
+        }
+
+
 .brand{
-    font-size:60px;
+    font-size:20px;
     display: inline-block;
     font-family:aquire;
 }
